@@ -34,12 +34,28 @@ background-color: yellow;
     align-self: flex-start;
 }
 
+#footer{
+    min-height: 300px;
+}
+
 #carouselboard{
     height: 300px;
     width: 300px;
     overflow: hidden;
     align-self: flex-start;
-  }
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+#footerimg{
+    height: 500px;
+    width: 500px;
+}
 
 
 
