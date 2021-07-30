@@ -20,18 +20,21 @@ background-color: yellow;
    
 }
 
+
+
 #rimage{
     height: 300px;
     width: 300px;
     object-fit: scale-down;
     overflow: hidden;
+    align-self: center
 }
 
 #limage{
     height: 300px;
     width: 300px;
     overflow: hidden;
-    align-self: flex-start;
+    align-self: center
 }
 
 #footer{
